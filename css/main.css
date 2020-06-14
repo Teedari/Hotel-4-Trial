@@ -235,9 +235,29 @@
       margin: 0;
       width: 100%;
     }
-    .showcase{
-      margin-left: 7rem;
-    }
+
+    .showcase img{
+        width: 2rem;
+       
+      
+
+      }
+      .showcase h3{
+        font-size: 2rem;
+        color: #353535;
+      
+      }
+      .facility__gallery{
+       display: flex;
+       flex-flow: column;
+      }
+
+      .gallery__card{
+          max-width: 20rem;
+          width: 100%;
+          margin-bottom: 1rem;
+          
+      }
   
   
   }
@@ -577,7 +597,6 @@
   
   .header nav{
     margin: 0;
-    padding: 3rem 0 ;
   }
   
   
