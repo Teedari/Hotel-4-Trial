@@ -1,0 +1,148 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400;
+    justify-content: space-around;
+}
+
+.form {
+    background-color: white;
+    width: 48%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.image {
+    background-color: white;
+    width: 48%;
+}
+
+input[type=submit] {
+    background-color: rgb(37, 236, 236);
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 24%;
+    height: 30px;
+
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#contactus {
+    font-size: large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#mails {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#fullname {
+    width: 100%;
+    box-shadow: 2px 2px 2px rgb(223, 219, 219);
+    margin-bottom: 20px;
+}
+
+#phone,
+#address {
+    width: 49%;
+    box-shadow: 2px 2px 2px rgb(223, 219, 219);
+}
+
+#hotelimage {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    margin-top: 20px;
+}
+
+#message {
+    width: 99.2%;
+    height: 200px;
+    box-shadow: 2px 2px 2px rgb(223, 219, 219);
+    border: none;
+}
+
+#logo {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: grey;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+
+
+}
+
+#submit {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .flex-container {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    #logo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .logo {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    #phone,
+    #address {
+        width: 100%;
+        box-shadow: 2px 2px 2px rgb(223, 219, 219);
+    }
+
+    #address {
+        margin-bottom: 20px;
+    }
+
+    #mails {
+        flex-wrap: wrap;
+    }
+
+    #logo {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .logo {
+        height: 30px;
+    }
+}
