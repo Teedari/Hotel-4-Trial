@@ -1,4 +1,18 @@
+*,*::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
 /* Rooms and Rate -section */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 .search{
     margin: 0 2rem;
     width: 50%;
